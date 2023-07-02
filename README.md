@@ -8,6 +8,8 @@ XanMod website at https://xanmod.org
 
 - Use at your own risk
 
+- You have to execute it as a superuser or with sudo
+
 - Support for the distro: Ubuntu/Debian
 
 - script-xanmod-unofficial-installer: july 2023
