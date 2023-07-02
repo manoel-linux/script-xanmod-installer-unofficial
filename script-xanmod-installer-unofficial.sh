@@ -221,14 +221,14 @@ curl -fSsL https://dl.xanmod.org/archive.key | gpg --dearmor | sudo tee /usr/sha
 echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-release.list
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install --no-install-recommends linux-xanmod-x64v1 -y
+sudo apt-get install --no-install-recommends linux-xanmod-lts-x64v1 -y
 else
 echo "Skipping system update."
 echo "#################################################################"
 curl -fSsL https://dl.xanmod.org/archive.key | gpg --dearmor | sudo tee /usr/share/keyrings/xanmod-archive-keyring.gpg > /dev/null
 echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-release.list
 sudo apt-get update
-sudo apt-get install --no-install-recommends linux-xanmod-x64v1 -y
+sudo apt-get install --no-install-recommends linux-xanmod-lts-x64v1 -y
 fi
 
 echo "#################################################################"
