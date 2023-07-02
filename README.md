@@ -14,7 +14,7 @@ XanMod website at https://xanmod.org
 
 - build-latest: 0.0.1
 
-- script-xanmod-installer-unofficial is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with script-xanmod-installer-unofficial, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of opti-sway-wayland to add additional features.
+- script-xanmod-installer-unofficial is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with script-xanmod-installer-unofficial, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of script-xanmod-installer-unofficial to add additional features.
 
 ## Installation
 
@@ -26,9 +26,9 @@ XanMod website at https://xanmod.org
 
 # 2. To install the script-xanmod-installer-unofficial script, follow these steps
 
-- chmod a+x `installupdate.sh`
+- chmod a+x `script-xanmod-installer-unofficial.sh`
 
-- sudo `./installupdate.sh`
+- sudo `./script-xanmod-installer-unofficial.sh`
 
 # Other Projects
 
