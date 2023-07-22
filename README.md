@@ -14,7 +14,7 @@ XanMod website at https://xanmod.org
 
 - script-xanmod-unofficial-installer: july 2023
 
-- build-latest: 0.0.1
+- build-latest: 0.0.2
 
 - script-xanmod-installer-unofficial is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with script-xanmod-installer-unofficial, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of script-xanmod-installer-unofficial to add additional features.
 
@@ -48,7 +48,7 @@ XanMod website at https://xanmod.org
 
 # Project Status
 
-- The script-xanmod-installer-unofficial project is currently in development. The latest stable version is 0.0.1. We aim to provide regular updates and add more features in the future.
+- The script-xanmod-installer-unofficial project is currently in development. The latest stable version is 0.0.2. We aim to provide regular updates and add more features in the future.
 
 # License
 
