@@ -117,7 +117,6 @@ sudo apt-get autoclean -y
 sudo dpkg --list | grep linux-image-generic | awk '/linux-image-[^x]/{print $2}' | grep -v -e xanmod | xargs sudo apt-get purge -y
 sudo apt-get autoremove -y 
 sudo apt-get autoclean -y
-fi
 
 clear
 
