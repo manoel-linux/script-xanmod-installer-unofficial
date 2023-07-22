@@ -138,6 +138,8 @@ echo "#################################################################"
 echo "Xanmod successfully installed"
 echo "#################################################################"
 echo "To update Xanmod, use the following command: sudo apt-get update && sudo apt-get upgrade"
+echo "To remove all kernels and leave only the Xanmod kernel, give the remove-kernel.sh script executable permissions using chmod a+x remove-kernel.sh, 
+and then use sudo ./remove-kernel.sh. I am not responsible for any damages to the system. Use it at your own risk."
 echo "#################################################################"  
 read -p "To apply the changes, you need to restart system. (y/n): " confirm
                 
@@ -213,22 +215,6 @@ curl -fSsL https://dl.xanmod.org/archive.key | gpg --dearmor | sudo tee /usr/sha
 echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-release.list
 sudo apt-get update
 sudo apt-get install --no-install-recommends linux-xanmod-lts-x64v1 -y
-fi
-
-echo "#################################################################"
-read -p "(Warning!) >> I am not responsible for any damages. Proceed at your own risk. 
-You want to remove all kernels and leave only Xanmod? (y/n): " choice
-echo "#################################################################"
-if [[ $choice == "y" || $choice == "Y" ]]; then
-sudo dpkg --list | grep linux-image | awk '/linux-image-[^x]/{print $2}' | grep -v -e xanmod | xargs sudo apt-get purge -y
-sudo apt-get autoremove -y 
-sudo apt-get autoclean -y
-sudo dpkg --list | grep linux-image-generic | awk '/linux-image-[^x]/{print $2}' | grep -v -e xanmod | xargs sudo apt-get purge -y
-sudo apt-get autoremove -y 
-sudo apt-get autoclean -y
-else
-echo "Skipping."
-echo "#################################################################"
 fi
 
 clear
