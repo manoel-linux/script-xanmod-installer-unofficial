@@ -243,6 +243,8 @@ echo "#################################################################"
 echo "Xanmod successfully installed"
 echo "#################################################################"
 echo "To update Xanmod, use the following command: sudo apt-get update && sudo apt-get upgrade"
+echo "To remove all kernels and leave only the Xanmod kernel, give the remove-kernel.sh script executable permissions using chmod a+x remove-kernel.sh, 
+and then use sudo ./remove-kernel.sh. I am not responsible for any damages to the system. Use it at your own risk."
 echo "#################################################################"  
 read -p "To apply the changes, you need to restart system. (y/n): " confirm
                 
