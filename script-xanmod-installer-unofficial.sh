@@ -14,7 +14,7 @@ echo " █████   █████   ██████  ██ ██  �
 echo " ██  ██  ██      ██   ██ ██  ██ ██ ██      ██     " 
 echo " ██   ██ ███████ ██   ██ ██   ████ ███████ ███████"                                                                                                                                                        
 echo "#################################################################"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-echo "build-latest: 0.0.1"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+echo "build-latest: 0.0.2"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 echo "script-xanmod-installer-unofficial-github: https://github.com/manoel-linux/script-xanmod-installer-unofficial"
 echo "#################################################################"
 
@@ -124,22 +124,6 @@ curl -fSsL https://dl.xanmod.org/archive.key | gpg --dearmor | sudo tee /usr/sha
 echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] http://deb.xanmod.org releases main' | sudo tee /etc/apt/sources.list.d/xanmod-release.list
 sudo apt-get update
 sudo apt-get install --no-install-recommends linux-xanmod-x64v1 -y
-fi
-
-echo "#################################################################"
-read -p "(Warning!) >> I am not responsible for any damages. Proceed at your own risk. 
-You want to remove all kernels and leave only Xanmod? (y/n): " choice
-echo "#################################################################"
-if [[ $choice == "y" || $choice == "Y" ]]; then
-sudo dpkg --list | grep linux-image | awk '/linux-image-[^x]/{print $2}' | grep -v -e xanmod | xargs sudo apt-get purge -y
-sudo apt-get autoremove -y 
-sudo apt-get autoclean -y
-sudo dpkg --list | grep linux-image-generic | awk '/linux-image-[^x]/{print $2}' | grep -v -e xanmod | xargs sudo apt-get purge -y
-sudo apt-get autoremove -y 
-sudo apt-get autoclean -y
-else
-echo "Skipping."
-echo "#################################################################"
 fi
 
 clear
