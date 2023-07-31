@@ -139,7 +139,7 @@ echo " ██   ██ ██    ██ ██ ██  ██ █████   
 echo " ██   ██ ██    ██ ██  ██ ██ ██         "
 echo " ██████   ██████  ██   ████ ███████ ██ "  
 echo "#################################################################"
-echo "Xanmod successfully installed"
+echo "Installation/Update completed."
 echo "#################################################################"
 echo "To update Xanmod, use the following command: sudo apt-get update && sudo apt-get upgrade"
 echo "(Attention!) >> You need to execute the script upon restarting the machine to remove the old kernel without conflicts. 
