@@ -51,7 +51,7 @@ echo "#################################################################"
 
 case $choice in
 1)
-show_linux_kernel
+show_linux-kernel
 ;;
 2)
 exit 0
@@ -65,7 +65,7 @@ esac
 done
 }
 
-show_linux_kernel() {
+show_linux-kernel() {
 while true; do
 clear
 if [ ! -x /bin/apt ]; then
