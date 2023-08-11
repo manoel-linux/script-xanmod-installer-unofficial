@@ -58,10 +58,10 @@ echo "#################################################################"
 
 case $choice in
 1)
-show_linux_xanmod_v1
+show_linux-xanmod-v1
 ;;
 2)
-show_linux_xanmod_lts_x64v1
+show_linux-xanmod-lts-x64v1
 ;;
 3)
 exit 0
