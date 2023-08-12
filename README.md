@@ -46,6 +46,8 @@ XanMod website at https://xanmod.org
 
 - CPU-T A command-line tool that I developed from scratch. CPU-T provides detailed information about the CPU of your system, including CPU model, number of cores and threads, CPU frequency, supported instructions, memory information, disk information, network information, and more. It is a useful tool for system analysis and optimization. You can find the source code and more information about CPU-T in the following repository: https://github.com/manoel-linux/cpu-t
 
+- The ZRAM-SYSTEMD script streamlines Zram activation and configuration on Linux systems with systemd. It's particularly useful when distributions lack a modern tool for managing Zram effectively. This script provides a straightforward solution for users looking to utilize Zram's benefits. You can find the source code and more information about zram-systemd in the following repository: https://github.com/manoel-linux/zram-systemd
+
 # Project Status
 
 - The script-xanmod-installer-unofficial project is currently in development. The latest stable version is 0.0.2. We aim to provide regular updates and add more features in the future.
