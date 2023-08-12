@@ -6,15 +6,15 @@ Please note that the use of this script is the responsibility of the user and is
 XanMod is licensed under the CC BY-NC-SA 4.0 license. Please read the license terms at https://creativecommons.org/licenses/by-nc-sa/4.0/ to understand the rights and restrictions associated with the use of XanMod. For more information, please visit the official 
 XanMod website at https://xanmod.org
 
-- Use at your own risk
-
-- You have to execute it as a superuser or with sudo
-
 - script-xanmod-unofficial-installer: july 2023
 
 - build-latest: 0.0.2
 
 - Support for the distro: Ubuntu/Debian
+
+- Use at your own risk
+
+- You have to execute it as a superuser or with sudo
 
 - script-xanmod-installer-unofficial is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with script-xanmod-installer-unofficial, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of script-xanmod-installer-unofficial to add additional features.
 
