@@ -1,8 +1,8 @@
 # script-xanmod-installer-unofficial
 
-This script was created by manoel-linux for my favorite custom kernel. It is not an official script from XanMod, but rather a personal creation for specific use. XanMod is a customized Linux kernel primarily maintained by Alexandre Frade. More information about XanMod can be found on GitHub at https://github.com/xanmod/linux and on GitLab at https://gitlab.com/xanmod/linux                             
+- This script was created by manoel-linux for my favorite custom kernel. It is not an official script from XanMod, but rather a personal creation for specific use. XanMod is a customized Linux kernel primarily maintained by Alexandre Frade. More information about XanMod can be found on GitHub at https://github.com/xanmod/linux and on GitLab at https://gitlab.com/xanmod/linux                             
 
-Please note that the use of this script is the responsibility of the user and is not associated with the official XanMod project. 
+- Please note that the use of this script is the responsibility of the user and is not associated with the official XanMod project. 
 XanMod is licensed under the CC BY-NC-SA 4.0 license. Please read the license terms at https://creativecommons.org/licenses/by-nc-sa/4.0/ to understand the rights and restrictions associated with the use of XanMod. For more information, please visit the official 
 XanMod website at https://xanmod.org
 
