@@ -10,11 +10,11 @@ XanMod website at https://xanmod.org
 
 - You have to execute it as a superuser or with sudo
 
-- Support for the distro: Ubuntu/Debian
-
 - script-xanmod-unofficial-installer: july 2023
 
 - build-latest: 0.0.2
+
+- Support for the distro: Ubuntu/Debian
 
 - script-xanmod-installer-unofficial is an open-source project, and we are happy to share it with the community. You have complete freedom to do whatever you want with script-xanmod-installer-unofficial, in accordance with the terms of the MIT license. You can modify, distribute, use it in your own projects, or even create a fork of script-xanmod-installer-unofficial to add additional features.
 
