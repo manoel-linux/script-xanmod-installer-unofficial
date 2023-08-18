@@ -6,7 +6,7 @@
 XanMod is licensed under the CC BY-NC-SA 4.0 license. Please read the license terms at https://creativecommons.org/licenses/by-nc-sa/4.0/ to understand the rights and restrictions associated with the use of XanMod. For more information, please visit the official 
 XanMod website at https://xanmod.org
 
-- script-xanmod-unofficial-installer: july 2023
+- script-xanmod-unofficial-installer: aug 2023
 
 - build-latest: 0.0.2
 
