@@ -25,22 +25,11 @@ echo "#################################################################"
 exit 1
 fi
 
-web="fsf.org"
-
-if ! ping -q -c 1 -W 1 "$web" >/dev/null; then
-echo "#################################################################"
-echo "No internet connection. The script will not be executed."
-echo "#################################################################"
-exit 1
-fi
-
 sudo apt-get install --no-install-recommends inetutils-ping -y
 echo "#################################################################"
 
 clear
 
-echo "#################################################################"
-echo "Connected to the internet. Running the script..."
 echo "#################################################################"
 echo "(1)> (Remove) all kernels and keep only the Xanmod."
 echo "(2)> (Exit)"
