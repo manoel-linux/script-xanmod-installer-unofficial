@@ -6,18 +6,17 @@ show_main_menu() {
 while true; do
 clear
 echo "#################################################################"
-echo "script-xanmod-unofficial-installer: aug 2023"
+echo "script-xanmod-unofficial-installer >> (aug 2023)"
 echo "#################################################################"
-echo " ██   ██ ███████ ██████  ███    ██ ███████ ██     " 
-echo " ██  ██  ██      ██   ██ ████   ██ ██      ██     " 
-echo " █████   █████   ██████  ██ ██  ██ █████   ██     " 
-echo " ██  ██  ██      ██   ██ ██  ██ ██ ██      ██     " 
-echo " ██   ██ ███████ ██   ██ ██   ████ ███████ ███████"                                                                                                                                                        
-echo "#################################################################"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-echo "build-latest: 0.0.3"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-echo "script-xanmod-installer-unofficial-github: https://github.com/manoel-linux/script-xanmod-installer-unofficial"
+echo " ███████ ██████   █████  ███    ███ "
+echo "    ███  ██   ██ ██   ██ ████  ████ "
+echo "   ███   ██████  ███████ ██ ████ ██ "
+echo "  ███    ██   ██ ██   ██ ██  ██  ██ "
+echo " ███████ ██   ██ ██   ██ ██      ██ "  
 echo "#################################################################"
-
+echo "build-latest >> (0.0.3)"     
+echo "script-xanmod-installer-unofficial-github >> (https://github.com/manoel-linux/script-xanmod-installer-unofficial)"
+echo "#################################################################"
 
 if [[ $EUID -ne 0 ]]; then
 echo " ███████ ██████  ██████   ██████  ██████  ██ "
