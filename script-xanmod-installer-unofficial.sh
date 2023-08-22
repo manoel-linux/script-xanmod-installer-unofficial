@@ -132,7 +132,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation completed)"
 echo "#################################################################"
-echo "To update Xanmod, use the following command: sudo apt-get update && sudo apt-get upgrade"
+echo "(To update Xanmod, use the following command >> sudo apt-get update && sudo apt-get upgrade)"
 echo "#################################################################"  
 echo "(Attention) >> (You need to execute the script upon restarting the machine to remove the old kernel without conflicts)
 (You must first check if Ubuntu/Debian is running the Xanmod kernel)
@@ -231,7 +231,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Installation completed)"
 echo "#################################################################"
-echo "To update Xanmod, use the following command: sudo apt-get update && sudo apt-get upgrade"
+echo "(To update Xanmod, use the following command >> sudo apt-get update && sudo apt-get upgrade)"
 echo "#################################################################"  
 echo "(Attention) >> (You need to execute the script upon restarting the machine to remove the old kernel without conflicts)
 (You must first check if Ubuntu/Debian is running the Xanmod kernel)
