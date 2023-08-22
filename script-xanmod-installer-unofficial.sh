@@ -81,14 +81,14 @@ if [[ "$second_confirm" == "y" || "$second_confirm" == "Y" ]]; then
 read -p "(Warning) >> (This script is provided 'AS IS', without any warranties of any kind. The user assumes full responsibility for executing this script and any resulting consequences. We recommend backing up your data before proceeding. If the script does not cause any apparent issues, you can use the PC normally. Are you sure you want to proceed) (y/n) >> " third_confirm
 echo "#################################################################"
 if [[ "$third_confirm" == "y" || "$third_confirm" == "Y" ]]; then
-echo "Proceeding with the changes..."
+echo "(Proceeding with the changes)"
 else
-echo "Action canceled by the user."
+echo "(Action canceled by the user)"
 echo "#################################################################"
 exit 1
 fi
 else
-echo "Action canceled by the user."
+echo "(Action canceled by the user)"
 echo "#################################################################"
 exit 1
 fi
@@ -180,14 +180,14 @@ if [[ "$second_confirm" == "y" || "$second_confirm" == "Y" ]]; then
 read -p "(Warning) >> (This script is provided 'AS IS', without any warranties of any kind. The user assumes full responsibility for executing this script and any resulting consequences. We recommend backing up your data before proceeding. If the script does not cause any apparent issues, you can use the PC normally. Are you sure you want to proceed) (y/n) >> " third_confirm
 echo "#################################################################"
 if [[ "$third_confirm" == "y" || "$third_confirm" == "Y" ]]; then
-echo "Proceeding with the changes..."
+echo "(Proceeding with the changes)"
 else
-echo "Action canceled by the user."
+echo "(Action canceled by the user)"
 echo "#################################################################"
 exit 1
 fi
 else
-echo "Action canceled by the user."
+echo "(Action canceled by the user)"
 echo "#################################################################"
 exit 1
 fi
