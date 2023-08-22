@@ -121,7 +121,7 @@ echo " ██████   ██████  ██   ████ ███�
 echo "#################################################################"
 echo "(Successful uninstallation of all kernels except Xanmod)"
 echo "#################################################################"
-echo "To update Xanmod, use the following command >> sudo apt-get update && sudo apt-get upgrade"
+echo "(To update Xanmod, use the following command >> sudo apt-get update && sudo apt-get upgrade)"
 echo "#################################################################"  
 read -p "(To apply the changes, you need to restart system) (y/n) >> " confirm
                 
