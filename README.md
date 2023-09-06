@@ -1,63 +1,17 @@
-# script-xanmod-installer-unofficial
+# GITLAB
 
-- This script was created by manoel-linux for my favorite custom kernel. It is not an official script from XanMod, but rather a personal creation for specific use. XanMod is a customized Linux kernel primarily maintained by Alexandre Frade. More information about XanMod can be found on GitHub at https://github.com/xanmod/linux and on GitLab at https://gitlab.com/xanmod/linux                             
+- Migration to GitLab
 
-- Please note that the use of this script is the responsibility of the user and is not associated with the official XanMod project. 
-XanMod is licensed under the CC BY-NC-SA 4.0 license. Please read the license terms at https://creativecommons.org/licenses/by-nc-sa/4.0/ to understand the rights and restrictions associated with the use of XanMod. For more information, please visit the official 
-XanMod website at https://xanmod.org
+- Hello, dear visitor! This repository used to reside here on GitHub, but we have now migrated to GitLab. We want to explain why we made this change and how you can access our updated project.
+Reason for the Migration
 
-- script-xanmod-unofficial-installer: aug 2023
+- The main reason for our move to GitLab is the issue with two-factor authentication (2FA). Since we don't have a cell phone, we couldn't activate 2FA on GitHub, which posed a security challenge for our account. Furthermore, the program you found here on GitHub might be outdated, as we now maintain the most recent version on GitLab.
+Access Our Project on GitLab
 
-- build-latest: 0.0.3
+- You can find the latest version of our program on GitLab. To access it, simply follow this link: https://gitlab.com/manoel-linux1
 
-- Support for the distro: Ubuntu/Debian
+- Access the Project on GitLab
 
-- Use at your own risk
+- On GitLab, you'll find all the latest updates, bug fixes, and improvements we've made to the project. Feel free to explore, contribute, and report issues directly on GitLab.
 
-- You have to execute it as a superuser or with sudo
-
-## Installation
-
-- To install xanmod, follow the steps below:
-
-# 1. Clone this repository by running the following command
-
-- git clone https://github.com/manoel-linux/script-xanmod-installer-unofficial.git
-
-# 2. To install the script-xanmod-installer-unofficial script, follow these steps
-
-- chmod a+x `script-xanmod-installer-unofficial.sh`
-
-- sudo `./script-xanmod-installer-unofficial.sh`
-
-# Other Projects
-
-- DEB2XBPS: A tool I developed based on the code of xdeb, specifically designed for Void Linux. DEB2XBPS enables the conversion of .deb packages to the .xbps   format used in Void Linux, simplifying package management in this distribution. You can find the source code and additional information about DEB2XBPS in the  following repository: https://github.com/manoel-linux/deb2xbps-shlibs-voidpackages It is based on the xdeb.
-
-- way-display-guard is a tool that can resolve a display:0 issue when attempting to run a program as a superuser or using "sudo." Remember to execute the way-display-guard every time you shut down or restart your PC. You can find the source code and more information about way-display-guard in the following repository: https://github.com/manoel-linux/way-display-guard
-
-- opti-sway-i3wm is a tool to optimize the boot process of Sway/i3-wm and make the PC boot faster. You can find the source code and more information about opti-sway-i3wm in the following repository: https://github.com/manoel-linux/opti-sway-i3wm
-
-- opti-gnome-wayland is a powerful program aimed at optimizing the GNOME boot process and reducing memory usage, resulting in a lighter and more efficient GNOME  desktop environment. With this tool, you can enjoy a faster and more responsive experience when using GNOME, even on systems with limited resources. You can find the source code and more information about opti-gnome-wayland in the following repository: https://github.com/manoel-linux/opti-gnome-wayland
-
-- The install-uefi-in-qemu script is a tool for installing QEMU UEFI when the UEFI BIOS is not included or available in the distribution's repository. You can find the source code and more information about install-uefi-in-qemu in the following repository: https://github.com/manoel-linux/install-uefi-in-qemu
-
-- CPU-T A command-line tool that I developed from scratch. CPU-T provides detailed information about the CPU of your system, including CPU model, number of cores and threads, CPU frequency, supported instructions, memory information, disk information, network information, and more. It is a useful tool for system analysis and optimization. You can find the source code and more information about CPU-T in the following repository: https://github.com/manoel-linux/cpu-t
-
-- The ZRAM-SYSTEMD script streamlines Zram activation and configuration on Linux systems with systemd. It's particularly useful when distributions lack a modern tool for managing Zram effectively. This script provides a straightforward solution for users looking to utilize Zram's benefits. You can find the source code and more information about zram-systemd in the following repository: https://github.com/manoel-linux/zram-systemd
-
-- The force-opengl-version is a script that allows forcing a version of OpenGL that the GPU does not support, keeping in mind that some programs/.jar files may work without any issues in certain cases, while others may encounter problems. You can find the source code and more information about force-opengl-version in the following repository: https://github.com/manoel-linux/force-opengl-version
-
-- The opti-systemd is a script for optimizing the systemd boot process on your Linux system. If you're looking for ways to enhance your system's performance, reduce boot times, and improve overall efficiency. You can find the source code and more information about opti-systemd in the following repository: https://github.com/manoel-linux/opti-systemd
-
-# Project Status
-
-- The script-xanmod-installer-unofficial project is currently in development. The latest stable version is 0.0.3. We aim to provide regular updates and add more features in the future.
-
-# License
-
-- script-xanmod-installer-unofficial is licensed under the MIT License. See the LICENSE file for more information.
-
-# Acknowledgements
-
-- We would like to thank the open-source community for their support and the libraries used in the development of script-xanmod-installer-unofficial.
+- We appreciate your understanding and ongoing support. We hope you enjoy our initiative on GitLab, and it serves you as well as it did here.
